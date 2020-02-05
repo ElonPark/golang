@@ -26,7 +26,7 @@ func main() {
 	//에러가 있으면 다음 case문에서 그 에러타입이 MyError인지를 체크하고,
 	//아니면 다음 case에서 일반 에러 케이스를 처리한다.
 	//모든 에러는 error 인터페이스를 구현하므로 마지막 case문은 모든 에러에 적용된다.
-	
+
 	//_, err := otherFunc()
 	//switch err.(type) {
 	//default: // 에러 없음
